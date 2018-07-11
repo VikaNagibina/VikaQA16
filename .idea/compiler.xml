@@ -6,6 +6,8 @@
       <module name="FirstProject_test" target="1.8" />
       <module name="selenium-tests_main" target="1.8" />
       <module name="selenium-tests_test" target="1.8" />
+      <module name="TestHM_main" target="1.8" />
+      <module name="TestHM_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

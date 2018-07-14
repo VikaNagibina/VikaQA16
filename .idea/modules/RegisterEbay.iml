@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="RegisterEbay" external.linked.project.path="$MODULE_DIR$/../../RegisterEbay" external.root.project.path="$MODULE_DIR$/../../RegisterEbay" external.system.id="GRADLE" external.system.module.group="HM1" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../RegisterEbay">
+      <excludeFolder url="file://$MODULE_DIR$/../../RegisterEbay/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RegisterEbay/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RegisterEbay/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

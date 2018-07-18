@@ -21,21 +21,28 @@ public class Trello {
   @Test
   public void testTrello() {
     openSite();
-
+    driver.findElement(By.xpath("//*[@href='/signup']")).click();
     filNameField();
     filEmailField();
     filPasswordField();
     clickOnSignup();
+
+  }
+
+  public void openSite() {
+
+    driver.get("https://trello.com/");
   }
 
   public void clickOnSignup() {
     driver.findElement(By.id("signup")).click();
+
   }
 
-  public void filPasswordField() {
-    driver.findElement(By.id("password")).click();
-    driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("0skar2013");
+  public void filNameField() {
+    driver.findElement(By.id("name")).click();
+    driver.findElement(By.id("name")).clear();
+    driver.findElement(By.id("name")).sendKeys("vika");
   }
 
   public void filEmailField() {
@@ -44,22 +51,30 @@ public class Trello {
     driver.findElement(By.id("email")).sendKeys("vikakhlinova@gmail.com");
   }
 
-  public void filNameField() {
-    driver.findElement(By.xpath("//*[@href='/signup']")).click();
-    driver.findElement(By.id("name")).clear();
-    driver.findElement(By.id("name")).sendKeys("vika");
+  public void filPasswordField() {
+    driver.findElement(By.id("password")).click();
+    driver.findElement(By.id("password")).clear();
+    driver.findElement(By.id("password")).sendKeys("0skar2013");
   }
 
-  public void openSite() {
 
-    driver.get("https://trello.com/");
-  }
+
+
+
+
+
 
   @AfterClass(alwaysRun = true)
   public void tearDown() throws Exception {
+    Thread.sleep(10000);
     driver.quit();
 
   }
+
+
+
+
+
 
   private boolean isElementPresent(By by) {
     try {

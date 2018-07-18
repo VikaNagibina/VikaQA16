@@ -9,7 +9,8 @@ public class RegistrEbay {
    WebDriver wb;
 
    @BeforeMethod
-   public void srtUp(){
+   public void setUp(){
+
        wb = new ChromeDriver();
    }
 

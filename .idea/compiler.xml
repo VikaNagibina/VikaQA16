@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Addressbook-web-tests_main" target="1.8" />
+      <module name="Addressbook-web-tests_test" target="1.8" />
       <module name="FirstProject_main" target="1.8" />
       <module name="FirstProject_test" target="1.8" />
       <module name="RegisterEbay_main" target="1.8" />

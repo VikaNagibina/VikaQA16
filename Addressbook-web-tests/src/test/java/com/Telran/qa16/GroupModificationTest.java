@@ -8,8 +8,12 @@ public class GroupModificationTest extends TestBase {
     @Test
     public void testEditFillGroup() {
         goToGroupsPage();
+        if(!isGroupPresent()){
+            createGroup();
+        }
         int before = getGroupsCount();
-        selectGroup();
+       selectGroup();
+       //selectGroupByIndex(); // в скобках передаем то,что нужно изменить
         initGroupModification();
         fillGroupsForm(new GroupData()
                 .withName("EddGroupName")

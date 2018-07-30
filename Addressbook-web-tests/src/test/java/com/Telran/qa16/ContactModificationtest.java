@@ -8,6 +8,9 @@ public class ContactModificationtest extends TestBase{
 
     @Test
     public void testContactModification(){
+        if(!isContactPresent()){
+            createContact();
+        }
         int before = getContactCount();
         selectContact();
         eddContact();

@@ -8,10 +8,13 @@ public class GroupCreationTest extends TestBase {
     @Test
     public void testCreateGroupTest() {
         goToGroupsPage();
+       /* if(!isGroupPresent()){
+            createGroup();
+        }*/
         int before = getGroupsCount();
         initGroupCreation();
         fillGroupsForm(new GroupData()
-                .withName("GroupName")
+                .withName("GroupName22")
                 .withHeader("GroupHeader")
                 .withFooter("GroupFooter"));
         submitgroupCreation();

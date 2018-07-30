@@ -8,6 +8,9 @@ public class ContactCreationTest extends TestBase{
 
     @Test
     public void testContactCreation() {
+       /* if(!isContactPresent()){
+            createContact();
+        }*/
         int before = getContactCount();
         goToAddNewPage();
         fillContactForms(

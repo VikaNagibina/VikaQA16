@@ -9,6 +9,9 @@ public class ContactDeletionTest extends TestBase {
     @Test
 
     public void testContactDeletion(){
+        if(!isContactPresent()){
+            createContact();
+        }
         int before = getContactCount();
         selectContact();
         deleteContact();

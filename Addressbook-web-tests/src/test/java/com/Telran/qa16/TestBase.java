@@ -1,6 +1,7 @@
 package com.Telran.qa16;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -49,15 +50,44 @@ public class TestBase {
 
     public void fillGroupsForm(GroupData group) {
         wd.findElement(By.name("group_name")).click();
+        wd.findElement(By.name("group_name")).clear();
         wd.findElement(By.name("group_name")).sendKeys(group.getGroupName());
 
         wd.findElement(By.name("group_header")).click();
+       wd.findElement(By.name("group_header")).clear();
         wd.findElement(By.name("group_header")).sendKeys(group.getGroupHeader());
 
         wd.findElement(By.name("group_footer")).click();
+       wd.findElement(By.name("group_footer")).clear();
         wd.findElement(By.name("group_footer")).sendKeys(group.getGroupFooter());
 
     }
+
+    public boolean isElementPresent(By locator) { //НАХОДИМ ЭЛЕМЕНТ (ЕСЛИ ЕСТЬ TRUE)
+        try {
+           wd.findElement(locator);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
+
+    public boolean  isGroupPresent(){
+        return isElementPresent(By.className("selected[]"));
+        }
+     public void createGroup(){
+         initGroupCreation();
+         fillGroupsForm(new GroupData()
+                 .withName("GroupName22")
+                 .withHeader("GroupHeader")
+                 .withFooter("GroupFooter"));
+         submitgroupCreation();
+         returnToTheGroupsPage();
+     }
+public boolean isElementsPresent(By locator){
+        return wd.findElements(locator).size()>0;
+}
 
     public void submitgroupCreation() {
         wd.findElement(By.name("submit")).click();
@@ -69,9 +99,13 @@ public class TestBase {
 
 
     //Modification
-
     public void selectGroup() {
-        wd.findElement(By.name("selected[]")).click();
+
+       wd.findElement(By.name("selected[]")).click();
+    }
+    public void selectGroupByIndex(int ind) {
+        wd.findElements(By.name("selected[]")).get(ind).click();// находит все элементы (name selected) и дает конкретный
+       // wd.findElement(By.name("selected[]")).click();// находит один первый элемент
     }
 
     public void initGroupModification() {
@@ -142,7 +176,7 @@ public class TestBase {
         wd.findElement(By.xpath("//*[@value='Delete']")).click();
 
     }
-// CONTACTMODIF
+// CONTACT MODIF
 
     protected void selectUpDateContact() {
         wd.findElement(By.name("update")).click();
@@ -156,4 +190,33 @@ public class TestBase {
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
     }
+
+    public boolean isContactElementPresent(By locator) { //НАХОДИМ ЭЛЕМЕНТ (ЕСЛИ ЕСТЬ TRUE)
+        try {
+            wd.findElement(locator);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
+
+    public boolean  isContactPresent(){
+        return isContactElementPresent(By.name("selected[]"));
+    }
+    public void createContact(){
+        goToAddNewPage();
+        fillContactForms(
+                new ContactData()
+                        .setFerstName("Lena")
+                        .setLastName("Polikova")
+                        .setAddress("shanedrin 20")
+                        .setEmail("vikvika632@gmail.com")
+                        .setPhone("053954123"));
+        submitContactCreation();
+        returnToTheHomePage();
+
+    }
+
+
 }

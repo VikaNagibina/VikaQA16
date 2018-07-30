@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2da3b0c5-1542-45ce-b0d2-cbfb1c1551bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactCreationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactDeletionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactModificationtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/ContactModificationtest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupCreationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupDeleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupDeleteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupModificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/GroupModificationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/out/test/classes/com/Telran/qa16/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactModificationtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactModificationtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupDeleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupModificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="2da3b0c5-1542-45ce-b0d2-cbfb1c1551bc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/selenium-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/selenium-tests/build/" />
     <ignored path="$PROJECT_DIR$/selenium-tests/out/" />
@@ -80,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3100">
-              <caret line="198" column="25" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="203" column="36" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2724#2725#0" expanded="true" />
@@ -132,8 +116,8 @@
       <file leaf-file-name="ContactModificationtest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactModificationtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +128,7 @@
       <file leaf-file-name="GroupDeleteTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupDeleteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="154">
               <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactDeletionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactDeletionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="28" />
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2589,16 +2573,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/CreatAdditGroupTest.java" />
     <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/CreateAdditGroupTest.java" />
-    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -2606,13 +2580,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -2637,17 +2604,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3100">
-          <caret line="198" column="25" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="25" />
+        <state relative-caret-position="193">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2776#2777#0" expanded="true" />
-            <element signature="e#6034#6035#0" expanded="true" />
-            <element signature="e#6103#6104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/GroupDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactModificationtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -2661,22 +2651,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactModificationtest.java">
+    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="203" column="36" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addressbook-web-tests/src/test/java/com/Telran/qa16/ContactDeletionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#6034#6035#0" expanded="true" />
+            <element signature="e#6103#6104#0" expanded="true" />
           </folding>
         </state>
       </provider>

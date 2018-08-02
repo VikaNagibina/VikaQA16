@@ -7,16 +7,17 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testCreateGroupTest() {
-        goToGroupsPage();
-        int before = getGroupsCount();
-        initGroupCreation();
-        fillGroupsForm(new GroupData()
-                .withName("GroupName")
+        app.groupHelper.goToGroupsPage();
+
+        int before = app.getGroupHelper().getGroupsCount();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupsForm(new GroupData()
+                .withName("GroupName22")
                 .withHeader("GroupHeader")
                 .withFooter("GroupFooter"));
-        submitgroupCreation();
-        returnToTheGroupsPage();
-        int after = getGroupsCount();
+        app.getGroupHelper().submitgroupCreation();
+        app.getGroupHelper().returnToTheGroupsPage();
+        int after = app.getGroupHelper().getGroupsCount();
         Assert.assertEquals(after,before +1);
     }
 

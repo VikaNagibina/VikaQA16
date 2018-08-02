@@ -7,18 +7,22 @@ public class GroupModificationTest extends TestBase {
 
     @Test
     public void testEditFillGroup() {
-        goToGroupsPage();
-        int before = getGroupsCount();
-        selectGroup();
-        initGroupModification();
-        fillGroupsForm(new GroupData()
+        app.goToGroupsPage();
+        if(!app.getGroupHelper().isGroupPresent()){
+            app.getGroupHelper().createGroup();
+        }
+        int before = app.getGroupHelper().getGroupsCount();
+       app.getGroupHelper().selectGroup();
+       //selectGroupByIndex(); // в скобках передаем то,что нужно изменить
+        app.getGroupHelper().initGroupModification();
+        app.getGroupHelper().fillGroupsForm(new GroupData()
                 .withName("EddGroupName")
                 .withHeader("AddGroupHeader")
                 .withFooter("AddGroupFooter"));
-        submitGroupModification();
-        returnToTheGroupsPage();
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToTheGroupsPage();
 
-        int after = getGroupsCount();
+        int after = app.getGroupHelper().getGroupsCount();
 
         Assert.assertEquals(after,before);
 

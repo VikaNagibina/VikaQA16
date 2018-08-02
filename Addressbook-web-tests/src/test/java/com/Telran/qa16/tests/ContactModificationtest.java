@@ -1,13 +1,14 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
+import com.Telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ContactModificationtest extends TestBase{
+public class ContactModificationtest extends TestBase {
 
     @Test
     public void testContactModification(){
-        if(!app.isContactPresent()){
+       if(!app.getContactHelper().isContactPresent()){
             app.getContactHelper().createContact();
         }
         int before = app.getContactHelper().getContactCount();

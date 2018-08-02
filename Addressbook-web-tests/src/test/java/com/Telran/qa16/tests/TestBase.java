@@ -1,8 +1,7 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
-import org.testng.annotations.AfterMethod;
+import com.Telran.qa16.appManager.ApplicationManager;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 public class TestBase {

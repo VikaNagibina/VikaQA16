@@ -1,9 +1,11 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
+import com.Telran.qa16.appManager.HelperBase;
+import com.Telran.qa16.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ContactHelper  extends HelperBase{
+public class ContactHelper  extends HelperBase {
 
     public ContactHelper(WebDriver wd) {
         super(wd);
@@ -19,16 +21,14 @@ public class ContactHelper  extends HelperBase{
                         .setEmail("vikvika632@gmail.com")
                         .setPhone("053954123"));
         submitContactCreation();
-        returnToTheHomePage();
+      returnToTheHomePage();
 
     }
+
 
     public void goToAddNewPage() {
-
         click(By.linkText("add new"));
     }
-
-
     public void fillContactForms(ContactData contact) {
         type(By.name("firstname"), contact.getFerstName());
         type(By.name("lastname"), contact.getLastName());
@@ -61,6 +61,7 @@ public class ContactHelper  extends HelperBase{
     }
 
     public void selectUpDateContact() {
+
         click(By.name("update"));
     }
 
@@ -76,7 +77,7 @@ public class ContactHelper  extends HelperBase{
 
 
 
-  //////????
+
     public boolean  isContactPresent(){
         return isElementPresent(By.name("selected[]"));
     }

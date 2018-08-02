@@ -1,4 +1,4 @@
-package com.Telran.qa16;
+package com.Telran.qa16.model;
 
 public class GroupData {
     private String groupName;

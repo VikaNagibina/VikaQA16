@@ -1,5 +1,7 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
+import com.Telran.qa16.model.GroupData;
+import com.Telran.qa16.tests.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,7 +9,7 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testCreateGroupTest() {
-        app.groupHelper.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsCount();
         app.getGroupHelper().initGroupCreation();

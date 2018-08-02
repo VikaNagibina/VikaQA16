@@ -1,8 +1,9 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
+import com.Telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ContactCreationTest extends TestBase{
+public class ContactCreationTest extends TestBase {
 
 
     @Test
@@ -21,7 +22,5 @@ public class ContactCreationTest extends TestBase{
       int after = app.getContactHelper().getContactCount();
        Assert.assertEquals(after,before + 1);
     }
-
-
 }
 

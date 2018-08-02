@@ -1,9 +1,10 @@
-package com.Telran.qa16;
+package com.Telran.qa16.appManager;
 
+import com.Telran.qa16.appManager.HelperBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SessionHelper extends HelperBase{
+public class SessionHelper extends HelperBase {
 
     public SessionHelper(WebDriver wd) {
         super(wd);

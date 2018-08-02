@@ -1,5 +1,7 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
+import com.Telran.qa16.appManager.HelperBase;
+import com.Telran.qa16.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,13 +14,11 @@ public class GroupHelper extends HelperBase {
 
     //class creation
     public void goToGroupsPage() {
-
       wd.findElement(By.linkText("groups")).click();
     }
 
 
     public void initGroupCreation() {
-
       click(By.name("new"));
     }
 

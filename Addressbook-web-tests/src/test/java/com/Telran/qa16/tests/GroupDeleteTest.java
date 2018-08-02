@@ -1,9 +1,10 @@
-package com.Telran.qa16;
+package com.Telran.qa16.tests;
 
+import com.Telran.qa16.tests.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class GroupDeleteTest extends TestBase{
+public class GroupDeleteTest extends TestBase {
 
 
     @Test

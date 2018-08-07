@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Telran.qa16.tests.GroupCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-06T17:24:06" hostname="DESKTOP-4MB1605" time="31.121">
+  <properties/>
+  <testcase name="testCreateGroupTest" classname="com.Telran.qa16.tests.GroupCreationTest" time="31.121"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

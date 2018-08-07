@@ -21,6 +21,7 @@ public class ApplicationManager {
         sessionHelper.openSite("http://localhost/addressbook/");
         sessionHelper.login("admin", "secret");
         groupHelper = new GroupHelper(wd);
+        contactHelper = new ContactHelper(wd);
     }
 
 

@@ -27,8 +27,11 @@ public class ContactHelper  extends HelperBase {
 
 
     public void goToAddNewPage() {
+       if(!isElementPresent(By.id("//*[@id=\"content\"]/h1"))){
         click(By.linkText("add new"));
+            }
     }
+
     public void fillContactForms(ContactData contact) {
         type(By.name("firstname"), contact.getFerstName());
         type(By.name("lastname"), contact.getLastName());

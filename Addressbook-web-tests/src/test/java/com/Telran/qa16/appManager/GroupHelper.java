@@ -1,4 +1,4 @@
-package com.Telran.qa16.tests;
+package com.Telran.qa16.appManager;
 
 import com.Telran.qa16.appManager.HelperBase;
 import com.Telran.qa16.model.GroupData;

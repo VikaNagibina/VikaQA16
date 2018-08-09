@@ -8,6 +8,7 @@ public class ContactCreationTest extends TestBase {
 
     @Test
     public void testContactCreation() {
+        app.getContactHelper().isOnContactPage();
         int before = app.getContactHelper().getContactCount();
         app.getContactHelper().goToAddNewPage();
         app.getContactHelper().fillContactForms(

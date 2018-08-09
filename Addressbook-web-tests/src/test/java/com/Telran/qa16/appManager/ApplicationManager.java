@@ -1,7 +1,5 @@
 package com.Telran.qa16.appManager;
 
-import com.Telran.qa16.tests.ContactHelper;
-import com.Telran.qa16.tests.GroupHelper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +9,7 @@ public class ApplicationManager {
     SessionHelper sessionHelper;
     GroupHelper groupHelper;
     ContactHelper contactHelper;
+
     private WebDriver wd;
 
     public void start() {
@@ -40,4 +39,6 @@ public class ApplicationManager {
     public ContactHelper getContactHelper() {
         return contactHelper;
     }
+
+
 }

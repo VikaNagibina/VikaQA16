@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProject_main.iml" group="FirstProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProject_test.iml" group="FirstProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Practic.iml" filepath="$PROJECT_DIR$/.idea/modules/Practic.iml" group="Practic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Practic/Practic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Practic/Practic_main.iml" group="Practic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Practic/Practic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Practic/Practic_test.iml" group="Practic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterEbay.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterEbay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterEbay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterEbay_main.iml" group="RegisterEbay" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegisterEbay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RegisterEbay_test.iml" group="RegisterEbay" />

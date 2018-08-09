@@ -1,4 +1,4 @@
-package com.Telran.qa16.tests;
+package com.Telran.qa16.appManager;
 
 import com.Telran.qa16.appManager.HelperBase;
 import com.Telran.qa16.model.ContactData;
@@ -27,10 +27,10 @@ public class ContactHelper  extends HelperBase {
 
 
     public void goToAddNewPage() {
-       if(!isElementPresent(By.id("//*[@id=\"content\"]/h1"))){
+      // if(!isElementPresent(By.id("//*[@id=\"content\"]/h1"))){
         click(By.linkText("add new"));
             }
-    }
+  //  }
 
     public void fillContactForms(ContactData contact) {
         type(By.name("firstname"), contact.getFerstName());
@@ -39,6 +39,14 @@ public class ContactHelper  extends HelperBase {
         type(By.name("email"), contact.getEmail());
         type(By.name("mobile"), contact.getPhone());
     }
+    public void fillContactForms2(ContactData contact) {
+        type(By.name("firstname"), contact.getFerstName());
+        type(By.name("lastname"), contact.getLastName());
+        type(By.name("address"), contact.getAddress());
+        type(By.name("email"), contact.getEmail());
+        type(By.name("mobile"), contact.getPhone());
+    }
+
 
     public void submitContactCreation() {
         click(By.name("submit"));
@@ -83,5 +91,12 @@ public class ContactHelper  extends HelperBase {
 
     public boolean  isContactPresent(){
         return isElementPresent(By.name("selected[]"));
+    }
+
+    public void isOnContactPage() {
+        if(!isElementPresent(By.id("maintable"))){
+            returnToTheHomePage();
+
+        }
     }
 }

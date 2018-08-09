@@ -21,4 +21,8 @@ public class SessionHelper extends HelperBase {
         wd.findElement(By.name("pass")).sendKeys(password);
         wd.findElement(By.xpath("//*[@value ='Login']")).click();
     }
+
+    public void logout() {
+        click(By.xpath("//a[contains(text(),'Logout')]"));
+    }
 }

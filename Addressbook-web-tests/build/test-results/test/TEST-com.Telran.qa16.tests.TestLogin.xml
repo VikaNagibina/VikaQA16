@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Telran.qa16.tests.TestLogin" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-16T06:56:01" hostname="DESKTOP-4MB1605" time="30.758">
+  <properties/>
+  <testcase name="loginTest" classname="com.Telran.qa16.tests.TestLogin" time="0.328"/>
+  <testcase name="loginTestnegative" classname="com.Telran.qa16.tests.TestLogin" time="30.329"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

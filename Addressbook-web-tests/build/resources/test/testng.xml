@@ -10,12 +10,23 @@
         </classes>
     </test>
 
-    <test name="Contact" verbose="2">
+    <test name="Contact" >
         <classes>
             <class name="com.Telran.qa16.tests.ContactCreationTest"/>
             <class name="com.Telran.qa16.tests.ContactModificationtest"/>
             <class name="com.Telran.qa16.tests.ContactDeletionTest"/>
 
+
+
         </classes>
     </test>
+    <test name="Login" >
+        <classes>
+
+            <class name="com.Telran.qa16.tests.TestLogin"/>
+
+
+        </classes>
+    </test>
+
 </suite>

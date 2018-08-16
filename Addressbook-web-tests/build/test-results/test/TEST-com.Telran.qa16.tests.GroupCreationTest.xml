@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Telran.qa16.tests.GroupCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-07T11:47:22" hostname="DESKTOP-4MB1605" time="61.704">
+<testsuite name="com.Telran.qa16.tests.GroupCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-16T06:54:41" hostname="DESKTOP-4MB1605" time="76.717">
   <properties/>
-  <testcase name="testCreateGroupTest" classname="com.Telran.qa16.tests.GroupCreationTest" time="61.704"/>
+  <testcase name="testCreateGroupTest" classname="com.Telran.qa16.tests.GroupCreationTest" time="76.717"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
